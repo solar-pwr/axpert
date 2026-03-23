@@ -4125,6 +4125,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SCR_GRID"
+		(exclude_from_sim no)
+		(at 279.4 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79a26968-eeab-4b4c-a266-d19bc4672040")
+	)
+	(text "SCR_OP"
+		(exclude_from_sim no)
+		(at 279.4 124.46 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f939e41e-e355-4d66-bc61-37549154bd7e")
+	)
 	(junction
 		(at 250.19 114.3)
 		(diameter 0)
@@ -7554,6 +7574,16 @@
 			(justify left bottom)
 		)
 		(uuid "252c796e-713a-4bcc-9017-eff5c6ea3b19")
+	)
+	(label "GRID_N_REQ"
+		(at 26.67 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45e90bf3-bb81-41db-b585-01f3407590da")
 	)
 	(label "OP_RELAY"
 		(at 26.67 102.87 0)

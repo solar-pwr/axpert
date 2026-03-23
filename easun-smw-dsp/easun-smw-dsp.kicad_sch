@@ -10240,7 +10240,7 @@
 		(uuid "c24ccc7f-6078-4950-a829-705310672bcc")
 	)
 	(junction
-		(at 523.24 148.59)
+		(at 523.24 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c288fbe8-822f-492b-a362-3b1c4d66efc4")
@@ -12721,7 +12721,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 148.59) (xy 523.24 148.59)
+			(xy 521.97 152.4) (xy 523.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13901,7 +13901,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 148.59) (xy 524.51 148.59)
+			(xy 523.24 152.4) (xy 524.51 152.4)
 		)
 		(stroke
 			(width 0)
@@ -15041,7 +15041,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 162.56) (xy 532.13 163.83)
+			(xy 532.13 166.37) (xy 532.13 167.64)
 		)
 		(stroke
 			(width 0)
@@ -15251,7 +15251,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 144.78) (xy 523.24 148.59)
+			(xy 523.24 148.59) (xy 523.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -16481,7 +16481,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 144.78) (xy 523.24 144.78)
+			(xy 521.97 148.59) (xy 523.24 148.59)
 		)
 		(stroke
 			(width 0)
@@ -17651,7 +17651,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 138.43) (xy 533.4 138.43)
+			(xy 513.08 142.24) (xy 533.4 142.24)
 		)
 		(stroke
 			(width 0)
@@ -19531,7 +19531,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 153.67) (xy 532.13 154.94)
+			(xy 532.13 157.48) (xy 532.13 158.75)
 		)
 		(stroke
 			(width 0)
@@ -19741,6 +19741,16 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 138.43) (xy 533.4 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9605346b-5db2-46c3-83ba-c25e7fc41c5d")
+	)
+	(wire
+		(pts
 			(xy 167.64 459.74) (xy 167.64 457.2)
 		)
 		(stroke
@@ -19841,7 +19851,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 148.59) (xy 514.35 148.59)
+			(xy 513.08 152.4) (xy 514.35 152.4)
 		)
 		(stroke
 			(width 0)
@@ -22701,7 +22711,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 142.24) (xy 532.13 142.24)
+			(xy 533.4 146.05) (xy 532.13 146.05)
 		)
 		(stroke
 			(width 0)
@@ -24851,7 +24861,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 144.78) (xy 514.35 144.78)
+			(xy 513.08 148.59) (xy 514.35 148.59)
 		)
 		(stroke
 			(width 0)
@@ -25611,7 +25621,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 142.24) (xy 532.13 143.51)
+			(xy 532.13 146.05) (xy 532.13 147.32)
 		)
 		(stroke
 			(width 0)
@@ -27200,36 +27210,6 @@
 			)
 		)
 	)
-	(global_label "DSP_PIN42"
-		(shape input)
-		(at 34.29 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2161bf0b-5f3f-4d7e-95f7-03fa4f929737")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6166 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "comment" "to SCR module pin 7 / GPIO50"
-			(at 49.53 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 778.51 271.78 180)
@@ -27835,7 +27815,7 @@
 	)
 	(global_label "DSP_PIN64"
 		(shape input)
-		(at 513.08 138.43 180)
+		(at 513.08 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27844,7 +27824,7 @@
 		)
 		(uuid "30d08bec-dcf4-462b-9f6e-39d094c3d00d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 499.7534 138.43 0)
+			(at 499.7534 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27854,7 +27834,7 @@
 			)
 		)
 		(property "func" "GPIO19"
-			(at 500.38 138.43 0)
+			(at 500.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27967,7 +27947,7 @@
 			)
 		)
 	)
-	(global_label "DSP_PIN2"
+	(global_label "DSP_PIN1"
 		(shape input)
 		(at 513.08 134.62 180)
 		(effects
@@ -27987,8 +27967,8 @@
 				(hide yes)
 			)
 		)
-		(property "func" "GPIO23"
-			(at 501.65 134.62 0)
+		(property "func" "GPIO42"
+			(at 500.38 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28350,7 +28330,7 @@
 	)
 	(global_label "FAN12_PWM"
 		(shape input)
-		(at 533.4 142.24 0)
+		(at 533.4 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28359,7 +28339,7 @@
 		)
 		(uuid "3f557a7c-ed15-402d-80c3-c5e0f51c555f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 547.4523 142.24 0)
+			(at 547.4523 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28369,7 +28349,7 @@
 			)
 		)
 		(property "pin" "CN11/8"
-			(at 551.18 142.24 0)
+			(at 551.18 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28540,6 +28520,36 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "GRID_N_REQ"
+		(shape input)
+		(at 533.4 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "453b9715-1a2d-4db3-9ff2-8e8890ca60f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 547.8152 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "comment" "CN11/11"
+			(at 551.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -29841,7 +29851,7 @@
 			)
 		)
 	)
-	(global_label "CN11_PIN7"
+	(global_label "CN11{slash}7"
 		(shape input)
 		(at 533.4 116.84 0)
 		(effects
@@ -30379,7 +30389,7 @@
 			)
 		)
 	)
-	(global_label "SFT_RELAY"
+	(global_label "GRID_L_RELAY"
 		(shape input)
 		(at 34.29 175.26 0)
 		(effects
@@ -30399,7 +30409,7 @@
 				(hide yes)
 			)
 		)
-		(property "comment" "to SCR module pin 5"
+		(property "comment" "to SCR module pin 5 & relay"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -30727,6 +30737,36 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "DSP_PIN42"
+		(shape input)
+		(at 513.08 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "988ab0ec-be6d-4a97-a4b5-6e33423f0d11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 499.7534 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "func" "GPIO50"
+			(at 500.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -31092,7 +31132,7 @@
 	)
 	(global_label "FAN3_PWM"
 		(shape input)
-		(at 533.4 138.43 0)
+		(at 533.4 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31101,7 +31141,7 @@
 		)
 		(uuid "a5105f5e-efcb-4431-98a8-bffe44d65567")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 546.2428 138.43 0)
+			(at 546.2428 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31111,7 +31151,7 @@
 			)
 		)
 		(property "pin" "CN11/10"
-			(at 551.18 138.43 0)
+			(at 551.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31286,7 +31326,7 @@
 	)
 	(global_label "DSP_PIN58"
 		(shape input)
-		(at 513.08 148.59 180)
+		(at 513.08 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31296,7 +31336,7 @@
 		)
 		(uuid "afea03c3-06d1-4f9f-a72e-82d36edc4f14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 499.7534 148.59 0)
+			(at 499.7534 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31306,7 +31346,7 @@
 			)
 		)
 		(property "func" "GPIO6/EPWM4A"
-			(at 513.08 150.7808 0)
+			(at 513.08 154.5908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31500,7 +31540,7 @@
 			)
 		)
 	)
-	(global_label "SFT_RELAY"
+	(global_label "GRID_L_RELAY"
 		(shape input)
 		(at 533.4 109.22 0)
 		(effects
@@ -31584,7 +31624,7 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
-		(at 513.08 144.78 180)
+		(at 513.08 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31594,7 +31634,7 @@
 		)
 		(uuid "b8be6724-ab9d-495f-85df-1b2dc8214ab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 504.41 144.78 0)
+			(at 504.41 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31960,7 +32000,7 @@
 				(hide yes)
 			)
 		)
-		(property "comment" "to SCR module pin 6"
+		(property "comment" "to SCR module pin 6 & relay"
 			(at 49.53 172.72 0)
 			(effects
 				(font
@@ -32633,6 +32673,36 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "GRID_N_REQ"
+		(shape input)
+		(at 34.29 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd712b4b-dde9-4794-b497-16082d095206")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.4676 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "comment" "to SCR module pin 7"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -41197,7 +41267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 532.13 163.83 0)
+		(at 532.13 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41207,7 +41277,7 @@
 		(fields_autoplaced yes)
 		(uuid "3654c37b-8ae3-4a8b-b9c4-adeb79ef46c8")
 		(property "Reference" "#PWR0119"
-			(at 532.13 170.18 0)
+			(at 532.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41216,7 +41286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 532.13 168.91 0)
+			(at 532.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41225,7 +41295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 532.13 163.83 0)
+			(at 532.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41234,7 +41304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 163.83 0)
+			(at 532.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41243,7 +41313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 532.13 163.83 0)
+			(at 532.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41400,7 +41470,7 @@
 	(symbol
 		(lib_name "MMBT2222A_1")
 		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 529.59 148.59 0)
+		(at 529.59 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41409,7 +41479,7 @@
 		(fields_autoplaced yes)
 		(uuid "371b404b-ee59-40d8-a0f1-ceee2155d639")
 		(property "Reference" "Q6"
-			(at 534.67 147.3199 0)
+			(at 534.67 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41418,7 +41488,7 @@
 			)
 		)
 		(property "Value" "MMBT2222A"
-			(at 534.67 149.8599 0)
+			(at 534.67 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41427,7 +41497,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 534.67 150.495 0)
+			(at 534.67 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41438,7 +41508,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 529.59 148.59 0)
+			(at 529.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41448,7 +41518,7 @@
 			)
 		)
 		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 529.59 148.59 0)
+			(at 529.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41457,7 +41527,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 529.59 148.59 0)
+			(at 529.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41466,7 +41536,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 529.59 148.59 0)
+			(at 529.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54001,7 +54071,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 518.16 144.78 90)
+		(at 518.16 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54009,7 +54079,7 @@
 		(dnp no)
 		(uuid "906cf9d4-730b-4777-a5a6-d927164721ce")
 		(property "Reference" "R198"
-			(at 518.16 139.7 90)
+			(at 518.16 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54017,7 +54087,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 518.16 142.24 90)
+			(at 518.16 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54025,7 +54095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 518.16 146.558 90)
+			(at 518.16 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54034,7 +54104,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 518.16 144.78 0)
+			(at 518.16 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54043,7 +54113,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 518.16 144.78 0)
+			(at 518.16 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60807,7 +60877,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 518.16 148.59 90)
+		(at 518.16 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -60815,7 +60885,7 @@
 		(dnp no)
 		(uuid "bae15f5f-327f-4e3d-89d3-c6fe4953e5e0")
 		(property "Reference" "R197"
-			(at 518.16 151.13 90)
+			(at 518.16 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60823,7 +60893,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 518.16 153.67 90)
+			(at 518.16 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60831,7 +60901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 518.16 150.368 90)
+			(at 518.16 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60840,7 +60910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 518.16 148.59 0)
+			(at 518.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60849,7 +60919,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 518.16 148.59 0)
+			(at 518.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66008,10 +66078,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df9f9861-0fdd-4abe-8936-1eb1e1c52488")
 		(property "Reference" "U10"
-			(at 608.33 534.67 0)
+			(at 608.33 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66019,7 +66088,7 @@
 			)
 		)
 		(property "Value" "TP2584"
-			(at 608.33 537.21 0)
+			(at 608.33 551.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69910,7 +69979,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 532.13 158.75 0)
+		(at 532.13 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69919,7 +69988,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4a6c8f6-9f72-4d30-8218-84ca0514bda5")
 		(property "Reference" "R196"
-			(at 534.67 157.4799 0)
+			(at 534.67 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69928,7 +69997,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 534.67 160.0199 0)
+			(at 534.67 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69937,7 +70006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 530.352 158.75 90)
+			(at 530.352 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69946,7 +70015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 532.13 158.75 0)
+			(at 532.13 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69955,7 +70024,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 532.13 158.75 0)
+			(at 532.13 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
